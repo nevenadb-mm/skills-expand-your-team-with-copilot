@@ -163,6 +163,17 @@ initial_activities = {
         },
         "max_participants": 16,
         "participants": ["william@mergington.edu", "jacob@mergington.edu"]
+    },
+    "Manga Maniacs": {
+        "description": "Dive into the epic worlds of samurai, ninjas, and magical heroes! From shonen battles to slice-of-life adventures, discover the captivating art and storytelling of Japanese Manga (graphic novels) that have taken the world by storm.",
+        "schedule": "Tuesdays, 7:00 PM - 8:00 PM",
+        "schedule_details": {
+            "days": ["Tuesday"],
+            "start_time": "19:00",
+            "end_time": "20:00"
+        },
+        "max_participants": 15,
+        "participants": []
     }
 }
 
