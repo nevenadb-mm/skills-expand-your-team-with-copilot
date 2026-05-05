@@ -869,10 +869,12 @@ document.addEventListener("DOMContentLoaded", () => {
       document.body.classList.add("dark-mode");
       darkModeToggle.textContent = "☀️";
       darkModeToggle.title = "Switch to light mode";
+      darkModeToggle.setAttribute("aria-label", "Switch to light mode");
     } else {
       document.body.classList.remove("dark-mode");
       darkModeToggle.textContent = "🌙";
       darkModeToggle.title = "Switch to dark mode";
+      darkModeToggle.setAttribute("aria-label", "Switch to dark mode");
     }
   }
 
