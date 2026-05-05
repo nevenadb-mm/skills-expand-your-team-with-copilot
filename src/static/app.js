@@ -734,7 +734,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     // Close any open share dropdowns when clicking elsewhere
     if (!event.target.closest(".share-container")) {
-      document.querySelectorAll(".share-dropdown").forEach((d) => d.classList.add("hidden"));
+      const openDropdowns = document.querySelectorAll(".share-dropdown:not(.hidden)");
+      openDropdowns.forEach((d) => d.classList.add("hidden"));
     }
   });
 

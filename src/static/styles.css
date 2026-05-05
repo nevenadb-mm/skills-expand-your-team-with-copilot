@@ -543,6 +543,8 @@ button {
 .share-option + .share-option {
   border-top: 1px solid var(--border-light);
 }
+
+footer {
   text-align: center;
   margin-top: 20px;
   padding: 10px;
